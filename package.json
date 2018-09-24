@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "start":"node server/index.js",
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,6 +14,7 @@
   "author": "HaoLLL",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^2.6.1",
     "koa": "^2.5.3"
   }
 }
